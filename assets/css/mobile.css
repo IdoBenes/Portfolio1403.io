@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+    /* Header adjustments */
+    #header {
+        padding: 2em 1em;
+        text-align: center;
+    }
+    
+    #header .inner {
+        transform: none !important;
+    }
+    
+    #header .image.avatar img {
+        margin-left: 0 !important;
+        max-width: 150px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #header h1 {
+        transform: none !important;
+        text-align: center;
+    }
+
+    #header h1 strong {
+        position: static !important;
+        left: 0 !important;
+    }
+
+    /* Main content adjustments */
+    #main {
+        padding: 2em 1em;
+    }
+
+    .work-item {
+        width: 100% !important;
+    }
+
+    /* Footer adjustments */
+    #footer .inner {
+        transform: none !important;
+        text-align: center;
+    }
+
+    #footer .icons {
+        transform: none !important;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    /* Fix image responsiveness */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
