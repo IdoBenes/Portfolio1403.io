@@ -1,14 +1,27 @@
+/* Desktop styles (default) */
+#header .image.avatar img {
+    margin-left: -260px;
+}
+
+#header h1 {
+    transform: translateX(-150px);
+}
+
+#header h1 strong {
+    position: relative;
+    left: -100px;
+}
+
+#footer .inner {
+    transform: translateX(-175px);
+}
+
+#footer .icons {
+    transform: translateX(-60px);
+}
+
+/* Mobile styles */
 @media screen and (max-width: 768px) {
-    /* Header adjustments */
-    #header {
-        padding: 2em 1em;
-        text-align: center;
-    }
-    
-    #header .inner {
-        transform: none !important;
-    }
-    
     #header .image.avatar img {
         margin-left: 0 !important;
         max-width: 150px;
@@ -26,29 +39,20 @@
         left: 0 !important;
     }
 
-    /* Main content adjustments */
-    #main {
-        padding: 2em 1em;
-    }
-
-    .work-item {
-        width: 100% !important;
-    }
-
-    /* Footer adjustments */
     #footer .inner {
         transform: none !important;
-        text-align: center;
     }
 
     #footer .icons {
         transform: none !important;
         display: flex;
         justify-content: center;
-        padding: 0;
     }
 
-    /* Fix image responsiveness */
+    .work-item {
+        width: 100% !important;
+    }
+
     img {
         max-width: 100%;
         height: auto;
